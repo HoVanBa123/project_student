@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    	function check_prime (n) {
+    		var prime = true;
+    		if ( n < 2 ) {
+    			prime = false;
+    		} else {
+    			for ( var i = 2; i < n-1; i++ ) if ( n % i == 0 ) {
+    				prime = false;
+    				break;
+    			}
+    		} 
+    	function printcheckarray ( art ) {
+    		for ( let i = 0; i < art.legth; i++) {
+    			if (check_prime(art[i])) {
+    			   console.log(art[i]);
+    			break;
+    		    }
+    		}
+    	}
+    	printcheckarray (art = [12, 3, 5, 9, 51]);
+    </script>
+</body>
+</html>
+</html>
